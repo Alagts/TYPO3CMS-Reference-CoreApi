@@ -19,7 +19,7 @@ final readonly class RenderComponentListener
         if ($event->getComponentCollection()->getNamespace() === 'MyVendor\\MyExtension\\Components') {
             $this->assetCollector->addStyleSheet(
                 'componentsBundle',
-                'EXT:my_extension/Resources/Public/ComponentsBundle.css'
+                'EXT:my_extension/Resources/Public/ComponentsBundle.css',
             );
         }
     }
