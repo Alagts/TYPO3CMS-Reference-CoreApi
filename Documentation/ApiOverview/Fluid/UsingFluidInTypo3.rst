@@ -322,6 +322,19 @@ keys and will be processed in reverse order. In this example, if `my_extension`
 defines a component that already exists in `vendor_extension`, it will override
 the original component in `vendor_extension`.
 
+.. _psr-14-events_fluid_components:
+
+PSR-14 events related to Fluid components
+-----------------------------------------
+
+Three PSR-14 events have been added to influence the processing and rendering
+of Fluid components that are registered using the new configuration file
+(see `Feature: #108508 - Fluid components integration <https://docs.typo3.org/permalink/changelog:feature-108508-1765987901>`_).
+
+*   `ModifyComponentDefinitionEvent <https://docs.typo3.org/permalink/t3coreapi:modifycomponentdefinitionevent>`_
+*   `ProvideStaticVariablesToComponentEvent <https://docs.typo3.org/permalink/t3coreapi:providestaticvariablestocomponentevent>`_
+*   `RenderComponentEvent <https://docs.typo3.org/permalink/t3coreapi:rendercomponentevent>`_
+
 ..  _generic-view-factory:
 
 Using the generic view factory (ViewFactoryInterface)

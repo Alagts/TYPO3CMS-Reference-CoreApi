@@ -7,8 +7,12 @@
 ProvideStaticVariablesToComponentEvent
 ======================================
 
-he :php-short:`\TYPO3\CMS\Fluid\Event\ProvideStaticVariablesToComponentEvent` can
-be used to inject additional static variables into component templates. As with the
+..  versionadded:: 14.1
+
+The :php-short:`\TYPO3\CMS\Fluid\Event\ProvideStaticVariablesToComponentEvent` can
+be used to inject additional static variables into component templates
+(see `Fluid components <https://docs.typo3.org/permalink/t3coreapi:using-fluid-components>`_).
+As with the
 :php-short:`\TYPO3\CMS\Fluid\Event\ModifyComponentDefinitionEvent`, these variables
 must not have any dependencies on runtime information, as they might be used for
 static analysis or IDE auto-completion. The

@@ -7,8 +7,11 @@
 ModifyComponentDefinitionEvent
 ==============================
 
+..  versionadded:: 14.1
+
 The :php-short:`\TYPO3\CMS\Fluid\Event\ModifyComponentDefinitionEvent` can be
-used to modify the definition of a component before it's written to the cache.
+used to modify the definition of a `Fluid component <https://docs.typo3.org/permalink/t3coreapi:using-fluid-components>`_
+before it's written to the cache.
 Component definitions must not have any dependencies on runtime information, as
 they might be used for static analysis or IDE auto-completion. Due
 to the component definitions cache, this is already enforced, as the registered
