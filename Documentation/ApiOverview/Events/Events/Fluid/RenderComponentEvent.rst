@@ -13,12 +13,12 @@ The :php-short:`\TYPO3\CMS\Fluid\Event\RenderComponentEvent` can be used to alte
 replace the rendering of `Fluid components <https://docs.typo3.org/permalink/t3coreapi:using-fluid-components>`_.
 There are three possible use cases:
 
-1.  fully take over the rendering of components by filling the :php:`$renderedContent` with
+1.  Fully take over the rendering of components by filling the :php:`$renderedContent` with
     :php:`$event->setRenderedContent()`. The first event that does this skips all following
     event listeners.
-2.  provide additional arguments (= variables in the component template) or slots to
+2.  Provide additional arguments (variables in the component template) or slots to
     the component with :php:`$event->setArguments()`/:php:`$event->setSlots()`.
-3.  execute additional code that doesn't influence the component rendering directly, e. g.
+3.  Execute additional code that doesn't influence the component rendering directly, for example
     adding certain frontend assets to the page automatically.
 
 Example

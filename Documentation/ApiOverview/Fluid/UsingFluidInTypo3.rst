@@ -327,13 +327,13 @@ the original component in `vendor_extension`.
 PSR-14 events related to Fluid components
 -----------------------------------------
 
-Three PSR-14 events have been added to influence the processing and rendering
+Three PSR-14 events are available to influence the processing and rendering
 of Fluid components that are registered using the new configuration file
 (see `Feature: #108508 - Fluid components integration <https://docs.typo3.org/permalink/changelog:feature-108508-1765987901>`_).
 
-*   `ModifyComponentDefinitionEvent <https://docs.typo3.org/permalink/t3coreapi:modifycomponentdefinitionevent>`_
-*   `ProvideStaticVariablesToComponentEvent <https://docs.typo3.org/permalink/t3coreapi:providestaticvariablestocomponentevent>`_
-*   `RenderComponentEvent <https://docs.typo3.org/permalink/t3coreapi:rendercomponentevent>`_
+*   :ref:`ModifyComponentDefinitionEvent <ModifyComponentDefinitionEvent>`
+*   :ref:`ProvideStaticVariablesToComponentEvent <ProvideStaticVariablesToComponentEvent>`
+*   :ref:`RenderComponentEvent <RenderComponentEvent>`
 
 ..  _generic-view-factory:
 
