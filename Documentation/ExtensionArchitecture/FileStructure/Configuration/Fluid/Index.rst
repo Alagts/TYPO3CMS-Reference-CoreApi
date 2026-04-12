@@ -17,6 +17,8 @@ configuration that introduces namespaces for Fluid.
 All files in this directory are automatically included during TYPO3
 bootstrap.
 
+..  versionadded:: 14.1
+
 ..  _extension-configuration-fluid-namespaces:
 
 ..  typo3:file:: Namespaces.php
