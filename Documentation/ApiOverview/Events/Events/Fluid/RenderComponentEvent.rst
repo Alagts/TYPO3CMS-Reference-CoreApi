@@ -14,7 +14,7 @@ replace the rendering of `Fluid components <https://docs.typo3.org/permalink/t3c
 There are three possible use cases:
 
 1.  Fully take over the rendering of components by filling the :php:`$renderedContent` with
-    :php:`$event->setRenderedContent()`. The first event that does this skips all following
+    :php:`$event->setRenderedContent()`. The first event listener that does this skips all following
     event listeners.
 2.  Provide additional arguments (variables in the component template) or slots to
     the component with :php:`$event->setArguments()`/:php:`$event->setSlots()`.
