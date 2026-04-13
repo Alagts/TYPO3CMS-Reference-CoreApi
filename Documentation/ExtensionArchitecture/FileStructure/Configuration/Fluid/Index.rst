@@ -40,5 +40,5 @@ bootstrap.
     :regex: /^.*Configuration\/Fluid\/ComponentCollections\.php$/
     :shortDescription: Registers a component collection to use :ref:`Fluid components <what-is-fluid-components>`.
 
-    This file is used to add Fluid components. It is used to register a so-called component collection. For more
-    details visit :ref:`Registering component collections <register-fluid-components>`.
+    This file is used to add Fluid components. It is used to register component collections. For more
+    details see :ref:`Registering component collections <register-fluid-components>`.
