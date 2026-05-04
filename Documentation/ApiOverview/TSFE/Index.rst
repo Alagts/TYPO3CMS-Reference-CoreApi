@@ -26,8 +26,6 @@ For more details it is best to look into the source code.
 
 There are several contexts in which the term TSFE is used:
 
-*   PHP: It is passed as request attribute
-    :ref:`frontend.controller <typo3-request-attribute-frontend-controller>`
 *   PHP: It was and is available as global array :php:`$GLOBALS['TSFE']` in PHP.
 *   TypoScript: TypoScript function :ref:`TSFE <t3tsref:data-type-gettext-tsfe>`
     which can be used to access public properties in TSFE.
@@ -54,18 +52,6 @@ From the source:
     When calling a frontend page, an instance of this object is available
     as :php:`$GLOBALS['TSFE']`, even though the Core development strives to get
     rid of this in the future.
-
-If access to the
-:php:`\TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController` instance is
-necessary, use the request attribute
-:ref:`frontend.controller <typo3-request-attribute-frontend-controller>`:
-
-..  code-block:: php
-
-    $frontendController = $request->getAttribute('frontend.controller');
-
-..  seealso::
-    :ref:`getting-typo3-request-object`
 
 TSFE is not available in all contexts. In particular, it is
 only available in frontend contexts, not in the backend or the
