@@ -66,9 +66,9 @@ After creating the symlinks, your directory structure should look like this:
 
 ..  directory-tree::
 
-    *   :path:`typo3_src-13.4.y\\`
+    *   :path:`typo3_src-13.4.y`
 
-    *   :path:`public\\`
+    *   :path:`public`
 
         *   :path:`typo3_src -> ..\\typo3_src-13.4.y\\`
 
